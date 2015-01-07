@@ -1,7 +1,7 @@
 import java.util.*;
  
 class Reverse {
-   public static void main(String args[]) {
+   public static String main(String args[]) {
       String original = "";
       String reverse = "";
       Scanner in = new Scanner(System.in);
@@ -15,5 +15,6 @@ class Reverse {
          reverse = reverse + original.charAt(i);
  
       System.out.println("Reverse of entered string is: "+reverse);
+      return reverse;
    }
 }
